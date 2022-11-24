@@ -23,11 +23,6 @@ export class ChatRoom {
   @Prop()
   lastMessage: string;
 
-  @Prop()
-  createAt: string;
-
-  @Prop()
-  updateAt: string;
 }
 
 export const ChatRoomSchema = SchemaFactory.createForClass(ChatRoom);
