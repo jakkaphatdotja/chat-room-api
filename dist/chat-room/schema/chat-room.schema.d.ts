@@ -29,7 +29,6 @@ export declare class ChatRoom {
     chatRoomName: string;
     chatRoomType: string;
     chatRoomPicture: string;
-    date: Date;
     member: string;
     lastMessage: string;
     createAt: string;

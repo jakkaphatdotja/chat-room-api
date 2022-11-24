@@ -24,17 +24,11 @@ let ChatRoomController = class ChatRoomController {
     async createChatRoom(chatRoomDto) {
         return this.chatRoomService.createChatRoom(chatRoomDto);
     }
-    findAll() {
-        return this.chatRoomService.findAll();
+    readChatRoom() {
+        return this.chatRoomService.readChatRoom();
     }
-    findOne(id) {
-        return this.chatRoomService.findOne(+id);
-    }
-    update(id, updateChatRoomDto) {
-        return this.chatRoomService.update(+id, updateChatRoomDto);
-    }
-    remove(id) {
-        return this.chatRoomService.remove(+id);
+    async updateChatRoom(id, updateData) {
+        return this.ChatRoomService.updateChatRoom(id, updateData);
     }
 };
 __decorate([
@@ -49,29 +43,19 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
-], ChatRoomController.prototype, "findAll", null);
+], ChatRoomController.prototype, "readChatRoom", null);
 __decorate([
-    (0, common_1.Get)(':id'),
-    __param(0, (0, common_1.Param)('id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", void 0)
-], ChatRoomController.prototype, "findOne", null);
-__decorate([
-    (0, common_1.Patch)(':id'),
+    (0, common_1.Put)(':id'),
     __param(0, (0, common_1.Param)('id')),
     __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String, update_chat_room_dto_1.UpdateChatRoomDto]),
-    __metadata("design:returntype", void 0)
-], ChatRoomController.prototype, "update", null);
+    __metadata("design:returntype", Promise)
+], ChatRoomController.prototype, "updateChatRoom", null);
 __decorate([
-    (0, common_1.Delete)(':id'),
-    __param(0, (0, common_1.Param)('id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", void 0)
-], ChatRoomController.prototype, "remove", null);
+    ,
+    __metadata("design:type", Object)
+], ChatRoomController.prototype, "", void 0);
 ChatRoomController = __decorate([
     (0, common_1.Controller)('chat-room'),
     __metadata("design:paramtypes", [chat_room_service_1.ChatRoomService])

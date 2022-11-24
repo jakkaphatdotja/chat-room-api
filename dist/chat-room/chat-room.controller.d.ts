@@ -5,8 +5,9 @@ export declare class ChatRoomController {
     private readonly chatRoomService;
     constructor(chatRoomService: ChatRoomService);
     createChatRoom(chatRoomDto: ChatRoom): Promise<ChatRoom>;
-    findAll(): string;
-    findOne(id: string): string;
-    update(id: string, updateChatRoomDto: UpdateChatRoomDto): string;
-    remove(id: string): string;
+    readChatRoom(): Promise<void | (ChatRoom & import("mongoose").Document<any, any, any> & {
+        _id: import("mongoose").Types.ObjectId;
+    })[]>;
+    updateChatRoom(id: string, updateData: UpdateChatRoomDto): Promise<ChatRoom>;
+    : any;
 }

@@ -24,17 +24,15 @@ let ChatRoomService = class ChatRoomService {
         const newChatRoom = new this.chatRoomModel(chatRoomId);
         return newChatRoom.save();
     }
-    findAll() {
-        return `This action returns all chatRoom`;
+    async readChatRoom() {
+        return this.chatRoomModel.find({})
+            .then((chatRoomId) => { return chatRoomId; })
+            .catch((err) => console.log(err));
     }
-    findOne(id) {
-        return `This action returns a #${id} chatRoom`;
+    async updateChatRoom(id, data) {
+        return this.chatRoomModel.findByIdAndUpdate(id, data, { new: true });
     }
-    update(id, updateChatRoomDto) {
-        return `This action updates a #${id} chatRoom`;
-    }
-    remove(id) {
-        return `This action removes a #${id} chatRoom`;
+    async deleteChatRoom(id) {
     }
 };
 ChatRoomService = __decorate([

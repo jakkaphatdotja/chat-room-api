@@ -17,7 +17,7 @@ let ChatRoomModule = class ChatRoomModule {
 ChatRoomModule = __decorate([
     (0, common_1.Module)({
         imports: [
-            mongoose_1.MongooseModule.forRoot('mongodb+srv://him_rahim:LleGuKDmSVRWusP3@cluster0.cgxgn.mongodb.net/test'),
+            mongoose_1.MongooseModule.forRoot('http://localhost:8181'),
             mongoose_1.MongooseModule.forFeature([{ name: 'chatRoomId', schema: chat_room_schema_1.ChatRoomSchema }])
         ],
         controllers: [chat_room_controller_1.ChatRoomController],

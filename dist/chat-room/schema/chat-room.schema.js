@@ -30,10 +30,6 @@ __decorate([
     __metadata("design:type", String)
 ], ChatRoom.prototype, "chatRoomPicture", void 0);
 __decorate([
-    (0, mongoose_1.Prop)({ default: Date.now }),
-    __metadata("design:type", Date)
-], ChatRoom.prototype, "date", void 0);
-__decorate([
     (0, mongoose_1.Prop)(),
     __metadata("design:type", String)
 ], ChatRoom.prototype, "member", void 0);
@@ -50,7 +46,7 @@ __decorate([
     __metadata("design:type", String)
 ], ChatRoom.prototype, "updateAt", void 0);
 ChatRoom = __decorate([
-    (0, mongoose_1.Schema)()
+    (0, mongoose_1.Schema)({ timestamps: true })
 ], ChatRoom);
 exports.ChatRoom = ChatRoom;
 exports.ChatRoomSchema = mongoose_1.SchemaFactory.createForClass(ChatRoom);

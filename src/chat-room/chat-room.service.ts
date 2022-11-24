@@ -4,6 +4,7 @@ import { UpdateChatRoomDto } from './dto/update-chat-room.dto';
 import { ChatRoom, ChatRoomDocument } from './schema/chat-room.schema';
 import { Model, model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
+import { REQUEST_CONTEXT_ID } from '@nestjs/core/router/request/request-constants';
 
 @Injectable()
 export class ChatRoomService {
@@ -17,19 +18,19 @@ export class ChatRoomService {
     return newChatRoom.save();
   }
 
-  findAll() {
-    return `This action returns all chatRoom`;
+  async readChatRoom() {
+    return this.chatRoomModel.find({})
+    .then((chatRoomId)=>{ return chatRoomId})
+    .catch((err)=> console.log(err))
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} chatRoom`;
+  // update
+  async updateChatRoom(id, data): Promise<ChatRoom> {
+    return this.chatRoomModel.findByIdAndUpdate(id, data, { new: true });
   }
 
-  update(id: number, updateChatRoomDto: UpdateChatRoomDto) {
-    return `This action updates a #${id} chatRoom`;
-  }
-
-  remove(id: number) {
-    return `This action removes a #${id} chatRoom`;
+  // delete
+  async deleteChatRoom(id) {
+    return this.chatRoomModel.findByIdAndRemove(id);
   }
 }

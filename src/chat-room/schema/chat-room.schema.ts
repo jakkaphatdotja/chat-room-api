@@ -3,7 +3,7 @@ import { Document } from 'mongoose';
 
 export type ChatRoomDocument = ChatRoom & Document;
 
-@Schema()
+@Schema({ timestamps: true })
 export class ChatRoom {
   @Prop()
   chatRoomId: string;
@@ -16,9 +16,6 @@ export class ChatRoom {
 
   @Prop()
   chatRoomPicture: string;
-
-  @Prop({ default: Date.now })
-  date: Date;
 
   @Prop()
   member: string;
