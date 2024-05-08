@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T11:11:08.383Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="hSi4haVLyF26NwCdayZA" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T11:11:58.062Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="JjJzGUy0MB7Cw1jT210b" version="24.3.1" type="github">
   <diagram name="Page-1" id="oeU3eeCdYxMcoUBLrMce">
     <mxGraphModel dx="882" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="38" y="350" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FnzWBg0ubWm0rds8tLxr-3" value="&lt;b style=&quot;font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; font-size: 16px;&quot; id=&quot;docs-internal-guid-7b9cd287-7fff-3553-db5d-55e4c7f1fc73&quot;&gt;&lt;span style=&quot;font-size: 16px; font-family: Sarabun, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-alternates: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Propose a project topic &lt;/span&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="270" y="220" width="120" height="80" as="geometry" />
+          <mxGeometry x="160" y="180" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FnzWBg0ubWm0rds8tLxr-4" value="Edit Project" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="170" y="290" width="120" height="80" as="geometry" />
@@ -47,10 +47,13 @@
           <mxGeometry x="420" y="620" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FnzWBg0ubWm0rds8tLxr-13" value="&lt;div style=&quot;text-align: start; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot; id=&quot;docs-internal-guid-7d13cc35-7fff-fd27-581e-f2813919a9cd&quot;&gt;&lt;span style=&quot;font-size: 16px; font-family: Sarabun, sans-serif; font-variant-ligatures: normal; font-variant-alternates: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Select advisor&lt;/span&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="180" y="140" width="150" height="80" as="geometry" />
+          <mxGeometry x="255" y="110" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FnzWBg0ubWm0rds8tLxr-14" value="&lt;b style=&quot;font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; font-size: 16px;&quot; id=&quot;docs-internal-guid-1d1350fa-7fff-4ea4-a0fd-b2b2e07ca0d4&quot;&gt;&lt;span style=&quot;font-size: 16px; font-family: Sarabun, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-alternates: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;check the status of my advisees projects&lt;/span&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="480" y="90" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FnzWBg0ubWm0rds8tLxr-15" value="&lt;b style=&quot;font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; font-size: 16px;&quot; id=&quot;docs-internal-guid-b8f9183c-7fff-e643-0cea-35c09dd7b9d3&quot;&gt;&lt;span style=&quot;font-size: 16px; font-family: Sarabun, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-alternates: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Submit project &lt;/span&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
